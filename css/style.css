@@ -602,6 +602,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
     background: #F8C702;
     color: #fff;
     padding: 10px 20px;
+    text-align: center;
 }
 
 #contacto .btn-view-works {
