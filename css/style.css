@@ -2228,26 +2228,30 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #consultorio {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+@media (min-width:769px) {
+  #arte .texto {
+    padding-top: 100px;
+  }
+}
+
+#arte .fondo {
+  background-image: url("../images/arte.png");
+  background-position: right center;
+  background-attachment: inicial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+#arte {
   background-color: #F0F0F0;
   padding: 0px;
 }
-
-#consultorio .fondo {
-  background-image: url("../images/consultorio2.jpg");
-  background-position: left center;
-  background-attachment: initial;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-
-/*.bg-3 {
-  background: url("../images/consultorio.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 100px;
-}*/
 
 .widget {
   margin-bottom: 30px;
