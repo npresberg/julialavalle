@@ -2236,6 +2236,14 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
 }
 
+.bg-4 {
+  background-image: url("../images/consultorio-01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-height: 400px;
+}
+
 #consultorio {
   padding-top: 90px;
   text-align: justify;
@@ -2248,6 +2256,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+}
+
+.call-to-action2 {
+  padding: 200px 0px;
+  text-align: center;
 }
 
 .feature2 {
