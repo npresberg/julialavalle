@@ -2220,6 +2220,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  max-height: 600px;
 }
 
 .bg-2 {
@@ -2237,8 +2238,31 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #consultorio {
   padding-top: 90px;
-  padding-bottom: 90px;
   text-align: justify;
+}
+
+#consultorio2 .fondo {
+  background-image: url("../images/consultorio.jpg");
+  background-position: right center;
+  background-attachment: inicial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.feature2 {
+  background-position: center center;
+  display: block;
+  position: relative;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width:769px) {
+  #consultorio2 .texto {
+    padding-top: 100px;
+  }
 }
 
 #arte2 {
