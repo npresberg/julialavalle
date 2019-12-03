@@ -2236,6 +2236,13 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
 }
 
+.bg-4 {
+  background-image: url("../images/arte.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 #consultorio {
   padding-top: 50px;
@@ -2270,37 +2277,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 0px;
 }
 
-#arte2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: left;
-  background-color: #353240;
-  color: #ffffff;
-}
 
-#arte2 p {
-  color: #ffffff;
-}
-
-@media (min-width:769px) {
-  #arte .texto {
-    padding-top: 100px;
-  }
-}
-
-#arte .fondo {
-  background-image: url("../images/arte.png");
-  background-position: right center;
-  background-attachment: inicial;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-#arte {
-  background-color: #F0F0F0;
-  padding: 0px;
-}
 
 .widget {
   margin-bottom: 30px;
