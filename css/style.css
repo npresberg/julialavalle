@@ -2256,7 +2256,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #arte .fondo {
-  background-image: url("/images/arte.png");
+  background-image: url("../images/arte.png");
   background-position: right center;
   background-attachment: inicial;
   background-repeat: no-repeat;
