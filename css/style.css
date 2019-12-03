@@ -747,7 +747,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #5C5C5C;
   padding: 10px 15px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 
@@ -2228,10 +2228,25 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
 }
 
+.bg-3 {
+  background-image: url("../images/estres-oxidativo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #consultorio {
   padding-top: 90px;
   padding-bottom: 90px;
-  text-align: center;
+  text-align: justify;
+}
+
+#arte2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  background-color: #353240;
+  color: #ffffff;
 }
 
 @media (min-width:769px) {
@@ -2241,12 +2256,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #arte .fondo {
-  background-image: url("../images/arte.png");
+  background-image: url("/images/arte.png");
   background-position: right center;
   background-attachment: inicial;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 500px;
 }
 
 #arte {
